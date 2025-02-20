@@ -1,0 +1,9 @@
+{
+    "/api": {
+      "target": "https://prod-api.example.com",
+      "secure": true,
+      "changeOrigin": true,
+      "logLevel": "info"
+    }
+  }
+  

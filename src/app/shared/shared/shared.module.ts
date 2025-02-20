@@ -2,7 +2,7 @@ import { NgModule } from '@angular/core';
 import { ReactiveFormsModule } from '@angular/forms';
 
 const everySharedThing = [
-  ReactiveFormsModule
+  ReactiveFormsModule,
 ]
 
 @NgModule({
