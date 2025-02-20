@@ -70,11 +70,13 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
-            "development": {
-              "proxyConfig": "src/proxy.dev.json"
-            },
             "production": {
+              "browserTarget": "BoilerPlate:build:production",
               "proxyConfig": "src/proxy.prod.json"
+            },
+            "development": {
+              "browserTarget": "BoilerPlate:build:development",
+              "proxyConfig": "src/proxy.dev.json"
             }
           },
           "defaultConfiguration": "development"
